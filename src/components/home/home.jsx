@@ -26,7 +26,7 @@ function Home(){
                                 <div className="info">
                                     <h2>{sli.title}</h2>
                                     <p>{sli.desc}</p>
-                                    <Link to={'/'}>Visit Collections</Link>
+                                    <Link to={'/products'}>Visit Collections</Link>
                                 </div>
                                 <div className="image">
                                     <img src={sli.cover} alt="" style={{height:'250px'}}/>
